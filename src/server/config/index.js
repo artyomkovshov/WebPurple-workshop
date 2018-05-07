@@ -3,8 +3,8 @@ const config = {
   port: 3030,
   secret: 'webpurple_secret',
   createKey: 'webpurple_create',
-  vk_token: '6a2750226a2750226a275022a06a78eae766a276a275022303d339d487914ce08c44f1d',
-  vk_user: 'ID пользователя ВК',
+  vk_token: 'c7181ea2c7181ea2c7181ea227c77a93d5cc718c7181ea29dc65d6ae8fbb996fd588481',
+  vk_user: -1,
 }
 
 export default config;

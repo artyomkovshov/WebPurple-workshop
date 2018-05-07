@@ -54,10 +54,11 @@
     "cross-env": "^5.1.1",
     "force-case-sensitivity-webpack-plugin": "^0.2.1",
     "happypack": "^4.0.0",
+    "mockgoose": "^7.3.5",
     "nodemon": "^1.12.1"
   },
   "scripts": {
-    "start": "cross-env NODE_ENV=development nodemon --exec babel-node src/server/index.js",
+    "start": "cross-env NODE_ENV=development nodemon --exec babel-node src/server/index.js --inspect",
     "build": "cross-env NODE_ENV=production webpack",
     "server": "cross-env NODE_ENV=production  nodemon --exec babel-node src/server/index.js"
   }
